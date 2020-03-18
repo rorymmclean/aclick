@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shortened URLs</title>
+</head>
+<body>
+<table border="1"><tr>
+    <th><a href="http://aclick.us/urls1">Short URL</a></th>
+    <th>Delete URL/th>
+    <th><a href="http://aclick.us/urls2">Full URL</a></th>
+    <th><a href="http://aclick.us/urls3">Created Date</a></th></tr>
+{% for MyUrl in myurls %}
+    <tr><td><a href="http://aclick.us/{{ MyUrl.short_url }}">http://aclick.us/{{ MyUrl.short_url }}</a></td>
+        <td><a href="http://aclick.us/delete/{{ MyUrl.short_url }}">Delete</a></td>
+        <td>{{ MyUrl.full_url }} </td>
+        <td>{{ MyUrl.created }}</td></tr>
+{% endfor %}
+</table>
+</body>
+</html>

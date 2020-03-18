@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>New Opportunity</title>
+</head>
+<body>
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+           <div class="navbar-header">
+              <a class="navbar-brand" href="#">New Opportunity Screen</a>
+           </div>
+           <div id="navbar" class="navbar-collapse collapse">
+           </div>
+           <!--/.navbar-collapse -->
+        </div>
+     </nav>
+     <div class="jumbotron">
+        <div class="container">
+           <br />
+           {% if not response_msg %}
+           <div class="row">
+              <div class="col-md-offset-1 col-md-9">
+                 <h3>Enter Opportunity Details</h3>
+                 <form method="post" class="navbar-form navbar-right" action="">
+                    <div class="form-group">
+                        <table>
+                            <tr>
+                                <td>
+                                    <h4>Contract Number:</h4>
+                                </td>
+                                <td>
+                                    <input type="text" name="contract_number" id="contract_number" class="form-control chat-input">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h4>Agency:</h4>
+                                </td>
+                                <td>
+                                    <select name="agency_name" id="agency_name" class="form-control chat-input" >
+                                        <option value="Other">Other</option>
+                                        <option value="9515: ADMINISTRATIVE CONFERENCE OF THE U. S.">ADMINISTRATIVE CONFERENCE OF THE U. S. (9515)</option>
+                                        <option value="7528: AGENCY FOR HEALTHCARE RESEARCH AND QUALITY">AGENCY FOR HEALTHCARE RESEARCH AND QUALITY (7528)</option>
+                                        <option value="7200: AGENCY FOR INTERNATIONAL DEVELOPMENT">AGENCY FOR INTERNATIONAL DEVELOPMENT (7200)</option>
+                                        <option value="12K2: AGRICULTURAL MARKETING SERVICE">AGRICULTURAL MARKETING SERVICE (12K2)</option>
+                                        <option value="12H2: AGRICULTURAL RESEARCH SERVICE">AGRICULTURAL RESEARCH SERVICE (12H2)</option>
+                                        <option value="12K3: ANIMAL AND PLANT HEALTH INSPECTION SERVICE">ANIMAL AND PLANT HEALTH INSPECTION SERVICE (12K3)</option>
+                                        <option value="1560: ATF ACQUISITION AND PROPERTY MGMT DIV">ATF ACQUISITION AND PROPERTY MGMT DIV (1560)</option>
+                                        <option value="9568: BROADCASTING BOARD OF GOVERNORS">BROADCASTING BOARD OF GOVERNORS (9568)</option>
+                                        <option value="2041: BUREAU OF ENGRAVING AND PRINTING">BUREAU OF ENGRAVING AND PRINTING (2041)</option>
+                                        <option value="1450: BUREAU OF INDIAN AFFAIRS AND BUREAU OF INDIAN EDUCATION">BUREAU OF INDIAN AFFAIRS AND BUREAU OF INDIAN EDUCATION (1450)</option>
+                                        <option value="1625: BUREAU OF LABOR STATISTICS">BUREAU OF LABOR STATISTICS (1625)</option>
+                                        <option value="1422: BUREAU OF LAND MANAGEMENT">BUREAU OF LAND MANAGEMENT (1422)</option>
+                                        <option value="1435: BUREAU OF OCEAN ENERGY MANAGEMENT">BUREAU OF OCEAN ENERGY MANAGEMENT (1435)</option>
+                                        <option value="1425: BUREAU OF RECLAMATION">BUREAU OF RECLAMATION (1425)</option>
+                                        <option value="1436: BUREAU OF SAFETY AND ENVIRONMENTAL ENFORCEMENT">BUREAU OF SAFETY AND ENVIRONMENTAL ENFORCEMENT (1436)</option>
+                                        <option value="2036: BUREAU OF THE FISCAL SERVICE">BUREAU OF THE FISCAL SERVICE (2036)</option>
+                                        <option value="7523: CENTERS FOR DISEASE CONTROL AND PREVENTION">CENTERS FOR DISEASE CONTROL AND PREVENTION (7523)</option>
+                                        <option value="7530: CENTERS FOR MEDICARE AND MEDICAID SERVICES">CENTERS FOR MEDICARE AND MEDICAID SERVICES (7530)</option>
+                                        <option value="9565: CHEMICAL SAFETY AND HAZARD INVESTIGATION BOARD">CHEMICAL SAFETY AND HAZARD INVESTIGATION BOARD (9565)</option>
+                                        <option value="9507: COMMODITY FUTURES TRADING COMMISSION">COMMODITY FUTURES TRADING COMMISSION (9507)</option>
+                                        <option value="955F: CONSUMER FINANCIAL PROTECTION BUREAU">CONSUMER FINANCIAL PROTECTION BUREAU (955F)</option>
+                                        <option value="6100: CONSUMER PRODUCT SAFETY COMMISSION">CONSUMER PRODUCT SAFETY COMMISSION (6100)</option>
+                                        <option value="9577: CORPORATION FOR NATIONAL AND COMMUNITY SERVICE">CORPORATION FOR NATIONAL AND COMMUNITY SERVICE (9577)</option>
+                                        <option value="9594: COURT SERVICES AND OFFENDER SUPERVISION AGENCY">COURT SERVICES AND OFFENDER SUPERVISION AGENCY (9594)</option>
+                                        <option value="9516: DEFENSE NUCLEAR FACILITIES SAFETY BOARD">DEFENSE NUCLEAR FACILITIES SAFETY BOARD (9516)</option>
+                                        <option value="9700: DEPT OF DEFENSE">DEPT OF DEFENSE (9700)</option>
+                                        <option value="5700: DEPT OF THE AIR FORCE">DEPT OF THE AIR FORCE (5700)</option>
+                                        <option value="1524: DRUG ENFORCEMENT ADMINISTRATION">DRUG ENFORCEMENT ADMINISTRATION (1524)</option>
+                                        <option value="9100: EDUCATION, DEPARTMENT OF">EDUCATION, DEPARTMENT OF (9100)</option>
+                                        <option value="1630: EMPLOYMENT AND TRAINING ADMINISTRATION">EMPLOYMENT AND TRAINING ADMINISTRATION (1630)</option>
+                                        <option value="8900: ENERGY, DEPARTMENT OF">ENERGY, DEPARTMENT OF (8900)</option>
+                                        <option value="6800: ENVIRONMENTAL PROTECTION AGENCY">ENVIRONMENTAL PROTECTION AGENCY (6800)</option>
+                                        <option value="4500: EQUAL EMPLOYMENT OPPORTUNITY COMMISSION">EQUAL EMPLOYMENT OPPORTUNITY COMMISSION (4500)</option>
+                                        <option value="1100: EXECUTIVE OFFICE OF THE PRESIDENT">EXECUTIVE OFFICE OF THE PRESIDENT (1100)</option>
+                                        <option value="8300: EXPORT-IMPORT BANK OF THE U.S.">EXPORT-IMPORT BANK OF THE U.S. (8300)</option>
+                                        <option value="12D2: FARM SERVICE AGENCY">FARM SERVICE AGENCY (12D2)</option>
+                                        <option value="4730: FEDERAL ACQUISITION SERVICE">FEDERAL ACQUISITION SERVICE (4730)</option>
+                                        <option value="6920: FEDERAL AVIATION ADMINISTRATION">FEDERAL AVIATION ADMINISTRATION (6920)</option>
+                                        <option value="1549: FEDERAL BUREAU OF INVESTIGATION">FEDERAL BUREAU OF INVESTIGATION (1549)</option>
+                                        <option value="2700: FEDERAL COMMUNICATIONS COMMISSION">FEDERAL COMMUNICATIONS COMMISSION (2700)</option>
+                                        <option value="9506: FEDERAL ELECTION COMMISSION">FEDERAL ELECTION COMMISSION (9506)</option>
+                                        <option value="5800: FEDERAL EMERGENCY MANAGEMENT AGENCY">FEDERAL EMERGENCY MANAGEMENT AGENCY (5800)</option>
+                                        <option value="7022: FEDERAL EMERGENCY MANAGEMENT AGENCY">FEDERAL EMERGENCY MANAGEMENT AGENCY (7022)</option>
+                                        <option value="8960: FEDERAL ENERGY REGULATORY COMMISSION">FEDERAL ENERGY REGULATORY COMMISSION (8960)</option>
+                                        <option value="6925: FEDERAL HIGHWAY ADMINISTRATION">FEDERAL HIGHWAY ADMINISTRATION (6925)</option>
+                                        <option value="5400: FEDERAL LABOR RELATIONS AUTHORITY">FEDERAL LABOR RELATIONS AUTHORITY (5400)</option>
+                                        <option value="7015: FEDERAL LAW ENFORCEMENT TRAINING CENTER">FEDERAL LAW ENFORCEMENT TRAINING CENTER (7015)</option>
+                                        <option value="6500: FEDERAL MARITIME COMMISSION">FEDERAL MARITIME COMMISSION (6500)</option>
+                                        <option value="9300: FEDERAL MEDIATION AND CONCILIATION SERVICE">FEDERAL MEDIATION AND CONCILIATION SERVICE (9300)</option>
+                                        <option value="9504: FEDERAL MINE SAFETY AND HEALTH REVIEW COMMISSION">FEDERAL MINE SAFETY AND HEALTH REVIEW COMMISSION (9504)</option>
+                                        <option value="6953: FEDERAL MOTOR CARRIER SAFETY ADMINISTRATION">FEDERAL MOTOR CARRIER SAFETY ADMINISTRATION (6953)</option>
+                                        <option value="1542: FEDERAL PRISON INDUSTRIES / UNICOR">FEDERAL PRISON INDUSTRIES / UNICOR (1542)</option>
+                                        <option value="1540: FEDERAL PRISON SYSTEM / BUREAU OF PRISONS">FEDERAL PRISON SYSTEM / BUREAU OF PRISONS (1540)</option>
+                                        <option value="6930: FEDERAL RAILROAD ADMINISTRATION">FEDERAL RAILROAD ADMINISTRATION (6930)</option>
+                                        <option value="2900: FEDERAL TRADE COMMISSION">FEDERAL TRADE COMMISSION (2900)</option>
+                                        <option value="6955: FEDERAL TRANSIT ADMINISTRATION">FEDERAL TRANSIT ADMINISTRATION (6955)</option>
+                                        <option value="2026: FINANCIAL CRIME ENFORCEMENT NETWORK">FINANCIAL CRIME ENFORCEMENT NETWORK (2026)</option>
+                                        <option value="2033: FINANCIAL MANAGEMENT SERVICE">FINANCIAL MANAGEMENT SERVICE (2033)</option>
+                                        <option value="7524: FOOD AND DRUG ADMINISTRATION">FOOD AND DRUG ADMINISTRATION (7524)</option>
+                                        <option value="12F2: FOOD AND NUTRITION SERVICE">FOOD AND NUTRITION SERVICE (12F2)</option>
+                                        <option value="12G2: FOOD SAFETY AND INSPECTION SERVICE">FOOD SAFETY AND INSPECTION SERVICE (12G2)</option>
+                                        <option value="12C2: FOREST SERVICE">FOREST SERVICE (12C2)</option>
+                                        <option value="0559: GAO, EXCEPT COMPTROLLER GENERAL">GAO, EXCEPT COMPTROLLER GENERAL (559)</option>
+                                        <option value="4700: GENERAL SERVICES ADMINISTRATION">GENERAL SERVICES ADMINISTRATION (4700)</option>
+                                        <option value="7500: HEALTH AND HUMAN SERVICES, DEPARTMENT OF">HEALTH AND HUMAN SERVICES, DEPARTMENT OF (7500)</option>
+                                        <option value="7526: HEALTH RESOURCES AND SERVICES ADMINISTRATION">HEALTH RESOURCES AND SERVICES ADMINISTRATION (7526)</option>
+                                        <option value="8600: HOUSING AND URBAN DEVELOPMENT, DEPARTMENT OF">HOUSING AND URBAN DEVELOPMENT, DEPARTMENT OF (8600)</option>
+                                        <option value="6901: IMMEDIATE OFFICE OF THE SECRETARY OF TRANSPORTATION">IMMEDIATE OFFICE OF THE SECRETARY OF TRANSPORTATION (6901)</option>
+                                        <option value="1528: IMMIGRATION AND NATURALIZATION SERVICE">IMMIGRATION AND NATURALIZATION SERVICE (1528)</option>
+                                        <option value="7527: INDIAN HEALTH SERVICE">INDIAN HEALTH SERVICE (7527)</option>
+                                        <option value="2004: INSPECTOR GENERAL">INSPECTOR GENERAL (2004)</option>
+                                        <option value="2050: INTERNAL REVENUE SERVICE">INTERNAL REVENUE SERVICE (2050)</option>
+                                        <option value="19BM: INTERNATIONAL BOUNDARY AND WATER COMMISSION: U.S.-MEXICO">INTERNATIONAL BOUNDARY AND WATER COMMISSION (19BM)</option>
+                                        <option value="3400: INTERNATIONAL TRADE COMMISSION">INTERNATIONAL TRADE COMMISSION (3400)</option>
+                                        <option value="0300: LIBRARY OF CONGRESS">LIBRARY OF CONGRESS (300)</option>
+                                        <option value="6938: MARITIME ADMINISTRATION">MARITIME ADMINISTRATION (6938)</option>
+                                        <option value="4100: MERIT SYSTEMS PROTECTION BOARD">MERIT SYSTEMS PROTECTION BOARD (4100)</option>
+                                        <option value="9543: MILLENNIUM CHALLENGE CORPORATION">MILLENNIUM CHALLENGE CORPORATION (9543)</option>
+                                        <option value="1645: MINE SAFETY AND HEALTH ADMINISTRATION">MINE SAFETY AND HEALTH ADMINISTRATION (1645)</option>
+                                        <option value="8000: NATIONAL AERONAUTICS AND SPACE ADMINISTRATION">NATIONAL AERONAUTICS AND SPACE ADMINISTRATION (8000)</option>
+                                        <option value="8800: NATIONAL ARCHIVES AND RECORDS ADMINISTRATION">NATIONAL ARCHIVES AND RECORDS ADMINISTRATION (8800)</option>
+                                        <option value="9502: NATIONAL CAPITAL PLANNING COMMISSION">NATIONAL CAPITAL PLANNING COMMISSION (9502)</option>
+                                        <option value="5920: NATIONAL ENDOWMENT FOR THE ARTS">NATIONAL ENDOWMENT FOR THE ARTS (5920)</option>
+                                        <option value="5940: NATIONAL ENDOWMENT FOR THE HUMANITIES">NATIONAL ENDOWMENT FOR THE HUMANITIES (5940)</option>
+                                        <option value="3355: NATIONAL GALLERY OF ART">NATIONAL GALLERY OF ART (3355)</option>
+                                        <option value="6940: NATIONAL HIGHWAY TRAFFIC SAFETY ADMINISTRATION">NATIONAL HIGHWAY TRAFFIC SAFETY ADMINISTRATION (6940)</option>
+                                        <option value="1341: NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY">NATIONAL INSTITUTE OF STANDARDS AND TECHNOLOGY (1341)</option>
+                                        <option value="7529: NATIONAL INSTITUTES OF HEALTH">NATIONAL INSTITUTES OF HEALTH (7529)</option>
+                                        <option value="6300: NATIONAL LABOR RELATIONS BOARD">NATIONAL LABOR RELATIONS BOARD (6300)</option>
+                                        <option value="1330: NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION">NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION (1330)</option>
+                                        <option value="1443: NATIONAL PARK SERVICE">NATIONAL PARK SERVICE (1443)</option>
+                                        <option value="4900: NATIONAL SCIENCE FOUNDATION">NATIONAL SCIENCE FOUNDATION (4900)</option>
+                                        <option value="9508: NATIONAL TRANSPORTATION SAFETY BOARD">NATIONAL TRANSPORTATION SAFETY BOARD (9508)</option>
+                                        <option value="12C3: NATURAL RESOURCES CONSERVATION SERVICE">NATURAL RESOURCES CONSERVATION SERVICE (12C3)</option>
+                                        <option value="3100: NUCLEAR REGULATORY COMMISSION">NUCLEAR REGULATORY COMMISSION (3100)</option>
+                                        <option value="1650: OCCUPATIONAL SAFETY AND HEALTH ADMINISTRATION">OCCUPATIONAL SAFETY AND HEALTH ADMINISTRATION (1650)</option>
+                                        <option value="9514: OCCUPATIONAL SAFETY AND HEALTH REVIEW COMMISSION">OCCUPATIONAL SAFETY AND HEALTH REVIEW COMMISSION (9514)</option>
+                                        <option value="4773: OFFICE OF ADMINISTRATIVE SERVICES">OFFICE OF ADMINISTRATIVE SERVICES (4773)</option>
+                                        <option value="7505: OFFICE OF ASSISTANT SECRETARY FOR PREPAREDNESS AND RESPONSE">OFFICE OF ASSISTANT SECRETARY FOR PREPAREDNESS AND RESPONSE (7505)</option>
+                                        <option value="1631: OFFICE OF JOB CORPS">OFFICE OF JOB CORPS (1631)</option>
+                                        <option value="1550: OFFICE OF JUSTICE PROGRAMS">OFFICE OF JUSTICE PROGRAMS (1550)</option>
+                                        <option value="2400: OFFICE OF PERSONNEL MANAGEMENT">OFFICE OF PERSONNEL MANAGEMENT (2400)</option>
+                                        <option value="7001: OFFICE OF PROCUREMENT OPERATIONS">OFFICE OF PROCUREMENT OPERATIONS (7001)</option>
+                                        <option value="1438: OFFICE OF SURFACE MINING, RECLAMATION AND ENFORCEMENT">OFFICE OF SURFACE MINING, RECLAMATION AND ENFORCEMENT (1438)</option>
+                                        <option value="4705: OFFICE OF THE ADMINISTRATOR(ACMD)">OFFICE OF THE ADMINISTRATOR(ACMD) (4705)</option>
+                                        <option value="7570: OFFICE OF THE ASSISTANT SECRETARY FOR ADMINISTRATION (ASA)">OFFICE OF THE ASSISTANT SECRETARY FOR ADMINISTRATION (ASA) (7570)</option>
+                                        <option value="1605: OFFICE OF THE ASSISTANT SECRETARY FOR ADMINISTRATION AND MANAGEMENT">OFFICE OF THE ASSISTANT SECRETARY FOR ADMINISTRATION AND MANAGEMENT (1605)</option>
+                                        <option value="2046: OFFICE OF THE COMPTROLLER OF THE CURRENCY">OFFICE OF THE COMPTROLLER OF THE CURRENCY (2046)</option>
+                                        <option value="1301: OFFICE OF THE SECRETARY">OFFICE OF THE SECRETARY (1301)</option>
+                                        <option value="1501: OFFICES, BOARDS AND DIVISIONS">OFFICES, BOARDS AND DIVISIONS (1501)</option>
+                                        <option value="7100: OVERSEAS PRIVATE INVESTMENT CORPORATION">OVERSEAS PRIVATE INVESTMENT CORPORATION (7100)</option>
+                                        <option value="1145: PEACE CORPS">PEACE CORPS (1145)</option>
+                                        <option value="1665: PENSION BENEFIT GUARANTY CORPORATION">PENSION BENEFIT GUARANTY CORPORATION (1665)</option>
+                                        <option value="6957: PIPELINE AND HAZARDOUS MATERIALS SAFETY ADMINISTRATON">PIPELINE AND HAZARDOUS MATERIALS SAFETY ADMINISTRATON (6957)</option>
+                                        <option value="959P: PRETRIAL SERVICES AGENCY">PRETRIAL SERVICES AGENCY (959P)</option>
+                                        <option value="7555: PROGRAM SUPPORT CENTER">PROGRAM SUPPORT CENTER (7555)</option>
+                                        <option value="4740: PUBLIC BUILDINGS SERVICE">PUBLIC BUILDINGS SERVICE (4740)</option>
+                                        <option value="6000: RAILROAD RETIREMENT BOARD">RAILROAD RETIREMENT BOARD (6000)</option>
+                                        <option value="12E3: RURAL HOUSING SERVICE">RURAL HOUSING SERVICE (12000)</option>
+                                        <option value="6947: SAINT LAWRENCE SEAWAY DEVELOPMENT CORPORATION">SAINT LAWRENCE SEAWAY DEVELOPMENT CORPORATION (6947)</option>
+                                        <option value="5000: SECURITIES AND EXCHANGE COMMISSION">SECURITIES AND EXCHANGE COMMISSION (5000)</option>
+                                        <option value="9000: SELECTIVE SERVICE SYSTEM">SELECTIVE SERVICE SYSTEM (9000)</option>
+                                        <option value="7300: SMALL BUSINESS ADMINISTRATION">SMALL BUSINESS ADMINISTRATION (7300)</option>
+                                        <option value="3300: SMITHSONIAN INSTITUTION">SMITHSONIAN INSTITUTION (3300)</option>
+                                        <option value="2800: SOCIAL SECURITY ADMINISTRATION">SOCIAL SECURITY ADMINISTRATION (2800)</option>
+                                        <option value="1900: STATE, DEPARTMENT OF">STATE, DEPARTMENT OF (1900)</option>
+                                        <option value="7522: SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION">SUBSTANCE ABUSE AND MENTAL HEALTH SERVICES ADMINISTRATION (7522)</option>
+                                        <option value="9511: THE COUNCIL OF THE INSPECTORS GENERAL ON INTEGRITY AND EFFICIENCY ">THE COUNCIL OF THE INSPECTORS GENERAL ON INTEGRITY AND EFFICIENCY (9511)</option>
+                                        <option value="5300: THE INSTITUE OF MUSEUM AND LIBRARY SERVICES">THE INSTITUE OF MUSEUM AND LIBRARY SERVICES (5300)</option>
+                                        <option value="5950: THE INSTITUE OF MUSEUM AND LIBRARY SERVICES">THE INSTITUE OF MUSEUM AND LIBRARY SERVICES (5950)</option>
+                                        <option value="7013: TRANSPORTATION SECURITY ADMINISTRATION">TRANSPORTATION SECURITY ADMINISTRATION (7013)</option>
+                                        <option value="7003: U.S. CITIZENSHIP AND IMMIGRATION SERVICES">U.S. CITIZENSHIP AND IMMIGRATION SERVICES (7003)</option>
+                                        <option value="7008: U.S. COAST GUARD">U.S. COAST GUARD (7008)</option>
+                                        <option value="7014: U.S. CUSTOMS AND BORDER PROTECTION">U.S. CUSTOMS AND BORDER PROTECTION (7014)</option>
+                                        <option value="1448: U.S. FISH AND WILDLIFE SERVICE">U.S. FISH AND WILDLIFE SERVICE (1448)</option>
+                                        <option value="7012: U.S. IMMIGRATION AND CUSTOMS ENFORCEMENT">U.S. IMMIGRATION AND CUSTOMS ENFORCEMENT (7012)</option>
+                                        <option value="1544: U.S. MARSHALS SERVICE">U.S. MARSHALS SERVICE (1544)</option>
+                                        <option value="7009: U.S. SECRET SERVICE">U.S. SECRET SERVICE (7009)</option>
+                                        <option value="6950: UNITED STATES COAST GUARD">UNITED STATES COAST GUARD (6950)</option>
+                                        <option value="2044: UNITED STATES MINT">UNITED STATES MINT (2044)</option>
+                                        <option value="1153: UNITED STATES TRADE AND DEVELOPMENT AGENCY">UNITED STATES TRADE AND DEVELOPMENT AGENCY (1153)</option>
+                                        <option value="1323: US CENSUS BUREAU">US CENSUS BUREAU (1323)</option>
+                                        <option value="1434: US GEOLOGICAL SURVEY">US GEOLOGICAL SURVEY (1434)</option>
+                                        <option value="1344: US PATENT AND TRADEMARK OFFICE">US PATENT AND TRADEMARK OFFICE (1344)</option>
+                                        <option value="1205: USDA, OFFICE OF THE CHIEF FINANCIAL OFFICER">USDA, OFFICE OF THE CHIEF FINANCIAL OFFICER (1205)</option>
+                                        <option value="3600: VETERANS AFFAIRS, DEPARTMENT OF">VETERANS AFFAIRS, DEPARTMENT OF (3600)</option>                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h4>Acquisition Strategy:</h4>
+                                </td>
+                                <td>
+                                    <select name="acquisition_strategy" id="acquisition_strategy" class="form-control chat-input" >
+                                        <option value="Full & Open">Full & Open</option>
+                                        <option value="Small Business Set Aside">Small Business Set Aside</option>
+                                        <option value="SDVOSB">SDVOSB</option>
+                                        <option value="HUBZone">HUBZone</option>
+                                        <option value="WOSB">WOSB</option>
+                                        <option value="8(A) Competed">8(A) Competed</option>
+                                        <option value="unknown">Unknown</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h4>Anticipated Release Date:</h4>
+                                </td>
+                                <td>
+                                    <input type="date" name="release_date" id="release_date" class="form-control chat-input">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h4>Anticipated Duration:</h4>
+                                </td>
+                                <td>
+                                    <input type="number" name="contract_duration" id="contract_duration" min="0" max="100" class="form-control chat-input">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h4>Anticipated Contract Value:</h4>
+                                </td>
+                                <td>
+                                    <input type="number" name="anticipated_value" id="anticipated_value" min="0" max="100000000000" class="form-control chat-input">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h4>Contract Type:</h4>
+                                </td>
+                                <td>
+                                    <select name="contract_type" id="contract_type" class="form-control chat-input" >
+                                        <option value="Firm Fixed Price">Firm Fixed Price</option>
+                                        <option value="Cost Plus">Cost Plus</option>
+                                        <option value="Labor Hours">Labor Hours</option>
+                                        <option value="unknown">Unknown</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h4>Incumbent:</h4>
+                                </td>
+                                <td>
+                                    <input type="text" name="incumbent_name" id="incumbent_name"  style="width:500px;" class="form-control chat-input">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <h4>Description:</h4>
+                                </td>
+                                <td>
+                                    <textarea name="description" id="description" style="width:500px; height:300px;" class="form-control chat-input">
+                                    </textarea>
+                                </td>
+                            </tr>
+                        </table>
+                        <button type="submit" class="btn btn-lg btn-info">Submit</button>
+                    </div>
+                 </form>
+              </div>
+           </div>
+           {% else %}
+           <div>
+              Congratulations: {{response_msg}}
+           </div>
+           {% endif %}
+        </div>
+     </div>
+
+</body>
+</html>

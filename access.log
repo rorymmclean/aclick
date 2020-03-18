@@ -1,0 +1,1540 @@
+[2017-12-16 04:55:12,049] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-16 04:55:40,124] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 04:55:40] "GET /rC92K HTTP/1.1" 302 -
+[2017-12-16 05:24:07,010] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-16 05:24:44,759] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:24:44] "GET /create/ HTTP/1.1" 200 -
+[2017-12-16 05:24:51,551] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:24:51] "POST /create/ HTTP/1.1" 200 -
+[2017-12-16 05:28:51,639] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-16 05:28:57,981] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:28:57] "GET /create/ HTTP/1.1" 200 -
+[2017-12-16 05:29:07,697] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:29:07] "POST /create/ HTTP/1.1" 200 -
+[2017-12-16 05:29:32,921] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:29:32] "GET /vQC5d HTTP/1.1" 302 -
+[2017-12-16 05:29:43,637] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:29:43] "GET /create/ HTTP/1.1" 200 -
+[2017-12-16 05:29:51,167] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:29:51] "POST /create/ HTTP/1.1" 200 -
+[2017-12-16 05:37:29,019] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-16 05:37:56,936] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:37:56] "GET /create/ HTTP/1.1" 200 -
+[2017-12-16 05:37:57,222] {/usr/local/lib/python3.5/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 111, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-16 05:37:57,224] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:37:57] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-16 05:37:57,278] {/usr/local/lib/python3.5/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 111, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-16 05:37:57,280] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:37:57] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-16 05:38:17,340] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:38:17] "POST /create/ HTTP/1.1" 200 -
+[2017-12-16 05:38:20,499] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:38:20] "GET /rYWT5 HTTP/1.1" 302 -
+[2017-12-16 05:40:46,641] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-16 05:41:05,803] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:41:05] "GET /create/ HTTP/1.1" 200 -
+[2017-12-16 05:41:06,074] {/usr/local/lib/python3.5/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 111, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-16 05:41:06,077] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:41:06] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-16 05:41:06,128] {/usr/local/lib/python3.5/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 111, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-16 05:41:06,129] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:41:06] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-16 05:41:12,091] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:41:12] "POST /create/ HTTP/1.1" 200 -
+[2017-12-16 05:44:42,587] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-16 05:45:04,014] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:45:04] "GET /create/ HTTP/1.1" 200 -
+[2017-12-16 05:45:10,431] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:45:10] "POST /create/ HTTP/1.1" 200 -
+[2017-12-16 05:46:04,304] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:46:04] "GET /7pIA9 HTTP/1.1" 302 -
+[2017-12-16 05:52:08,891] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-16 05:52:19,102] {/usr/local/lib/python3.5/dist-packages/flask/app.py:1560} ERROR - Exception on /create/ [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 86, in create
+    ts = time.time()
+NameError: name 'time' is not defined
+[2017-12-16 05:52:19,107] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:52:19] "POST /create/ HTTP/1.1" 500 -
+[2017-12-16 05:54:08,113] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-16 05:54:24,177] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:54:24] "GET /create/ HTTP/1.1" 200 -
+[2017-12-16 05:54:30,552] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py:1560} ERROR - Exception on /create/ [POST]
+Traceback (most recent call last):
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/osboxes/PycharmProjects/aclick/main.py", line 86, in create
+    ts = time.time()
+NameError: name 'time' is not defined
+[2017-12-16 05:54:30,554] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:54:30] "POST /create/ HTTP/1.1" 500 -
+[2017-12-16 05:55:19,391] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-16 05:55:23,560] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:55:23] "GET /create/ HTTP/1.1" 200 -
+[2017-12-16 05:55:28,702] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py:1560} ERROR - Exception on /create/ [POST]
+Traceback (most recent call last):
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/osboxes/PycharmProjects/aclick/main.py", line 86, in create
+    st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
+NameError: name 'ts' is not defined
+[2017-12-16 05:55:28,703] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:55:28] "POST /create/ HTTP/1.1" 500 -
+[2017-12-16 05:55:52,273] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-16 05:55:58,160] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:55:58] "GET /create/ HTTP/1.1" 200 -
+[2017-12-16 05:56:01,642] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py:1560} ERROR - Exception on /create/ [POST]
+Traceback (most recent call last):
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/osboxes/PycharmProjects/aclick/main.py", line 86, in create
+    st = datetime.datetime.fromtimestamp(ts).strftime('%Y-%m-%d %H:%M:%S')
+NameError: name 'ts' is not defined
+[2017-12-16 05:56:01,644] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:56:01] "POST /create/ HTTP/1.1" 500 -
+[2017-12-16 05:57:20,387] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2017-12-16 05:57:24,361] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:57:24] "GET /create/ HTTP/1.1" 200 -
+[2017-12-16 05:57:28,468] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 05:57:28] "POST /create/ HTTP/1.1" 200 -
+[2017-12-16 05:59:57,206] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[2017-12-16 06:00:08,260] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 06:00:08] "GET /create/ HTTP/1.1" 200 -
+[2017-12-16 06:00:08,543] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/osboxes/PycharmProjects/aclick/main.py", line 116, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-16 06:00:08,545] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 06:00:08] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-16 06:00:08,593] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/osboxes/PycharmProjects/aclick/main.py", line 116, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-16 06:00:08,598] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 06:00:08] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-16 06:01:07,804] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+[2017-12-16 06:01:23,045] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 06:01:23] "GET /create/ HTTP/1.1" 200 -
+[2017-12-16 06:01:23,329] {/usr/local/lib/python3.5/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 116, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-16 06:01:23,331] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 06:01:23] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-16 06:01:23,362] {/usr/local/lib/python3.5/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.5/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.5/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 116, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-16 06:01:23,367] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 06:01:23] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-16 17:48:54,060] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 17:48:54] "POST /create/ HTTP/1.1" 200 -
+[2017-12-16 17:52:28,307] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 17:52:28] "GET /main.html HTTP/1.1" 302 -
+[2017-12-16 17:53:31,767] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+[2017-12-16 17:53:52,825] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 17:53:52] "GET /index.html HTTP/1.1" 302 -
+[2017-12-16 17:55:30,914] {/usr/local/lib/python3.5/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Dec/2017 17:55:30] "GET /favicon HTTP/1.1" 302 -
+[2017-12-17 01:03:57,002] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[2017-12-17 01:04:26,239] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py:1560} ERROR - Exception on /urls [GET]
+Traceback (most recent call last):
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/osboxes/PycharmProjects/aclick/main.py", line 113, in urls
+    cur = conn.execute('SELECT SHORT_URL, FULL_URL, CREATED from Recipe_tbl order by SHORT_URL')
+sqlite3.OperationalError: no such table: Recipe_tbl
+[2017-12-17 01:04:26,248] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:04:26] "GET /urls HTTP/1.1" 500 -
+[2017-12-17 01:04:58,544] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[2017-12-17 01:05:02,367] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py:1560} ERROR - Exception on /urls [GET]
+Traceback (most recent call last):
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/osboxes/PycharmProjects/aclick/main.py", line 113, in urls
+    cur = conn.execute('SELECT SHORT_URL, FULL_URL, CREATED from urls.db order by SHORT_URL')
+sqlite3.OperationalError: no such table: urls.db
+[2017-12-17 01:05:02,369] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:05:02] "GET /urls HTTP/1.1" 500 -
+[2017-12-17 01:05:36,514] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[2017-12-17 01:05:40,420] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py:1560} ERROR - Exception on /urls [GET]
+Traceback (most recent call last):
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/osboxes/PycharmProjects/aclick/main.py", line 118, in urls
+    return render_template('urls.html', myurls=myurls)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/osboxes/PycharmProjects/aclick/templates/urls.html", line 10, in top-level template code
+    <strong>Short URL:</strong> {{ MyUrls.short_url }} <br>
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'MyUrls' is undefined
+[2017-12-17 01:05:40,798] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:05:40] "GET /urls HTTP/1.1" 500 -
+[2017-12-17 01:06:06,071] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py:1560} ERROR - Exception on /urls [GET]
+Traceback (most recent call last):
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/osboxes/PycharmProjects/aclick/main.py", line 118, in urls
+    return render_template('urls.html', myurls=myurls)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/templating.py", line 134, in render_template
+    context, ctx.app)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/flask/templating.py", line 116, in _render
+    rv = template.render(context)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/osboxes/PycharmProjects/aclick/templates/urls.html", line 10, in top-level template code
+    <strong>Short URL:</strong> {{ MyUrl.short_url }} <br>
+  File "/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'MyUrls' is undefined
+[2017-12-17 01:06:06,072] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:06:06] "GET /urls HTTP/1.1" 500 -
+[2017-12-17 01:06:16,897] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[2017-12-17 01:06:21,024] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:06:21] "GET /urls HTTP/1.1" 200 -
+[2017-12-17 01:10:45,019] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[2017-12-17 01:10:50,446] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:10:50] "GET /urls HTTP/1.1" 200 -
+[2017-12-17 01:11:55,940] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[2017-12-17 01:12:01,725] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:12:01] "GET /urls HTTP/1.1" 200 -
+[2017-12-17 01:12:46,727] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:12:46] "GET /create/ HTTP/1.1" 200 -
+[2017-12-17 01:12:58,517] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:12:58] "POST /create/ HTTP/1.1" 200 -
+[2017-12-17 01:13:02,678] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:13:02] "GET /urls HTTP/1.1" 200 -
+[2017-12-17 01:15:24,924] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:15:24] "GET /create/ HTTP/1.1" 200 -
+[2017-12-17 01:15:32,017] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:15:32] "POST /create/ HTTP/1.1" 200 -
+[2017-12-17 01:16:14,163] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:16:14] "GET /x3mhj HTTP/1.1" 302 -
+[2017-12-17 01:16:21,008] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:16:21] "GET /urls HTTP/1.1" 200 -
+[2017-12-17 01:20:30,878] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[2017-12-17 01:20:40,253] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:20:40] "GET /urls HTTP/1.1" 200 -
+[2017-12-17 01:22:27,768] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:22:27] "GET /urls/1 HTTP/1.1" 404 -
+[2017-12-17 01:22:34,441] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:22:34] "GET /urls1 HTTP/1.1" 302 -
+[2017-12-17 01:27:07,527] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[2017-12-17 01:27:13,927] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:27:13] "GET /urls1 HTTP/1.1" 200 -
+[2017-12-17 01:27:17,664] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:27:17] "GET /urls2 HTTP/1.1" 200 -
+[2017-12-17 01:27:28,992] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:27:28] "GET /urls3 HTTP/1.1" 200 -
+[2017-12-17 01:31:11,391] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:31:11] "GET /urls3 HTTP/1.1" 200 -
+[2017-12-17 01:31:14,586] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:31:14] "GET /urls3 HTTP/1.1" 200 -
+[2017-12-17 01:31:21,543] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[2017-12-17 01:31:24,732] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:31:24] "GET /urls3 HTTP/1.1" 200 -
+[2017-12-17 01:31:27,357] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:31:27] "GET /urls1 HTTP/1.1" 200 -
+[2017-12-17 01:31:30,539] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:31:30] "GET /urls2 HTTP/1.1" 200 -
+[2017-12-17 01:31:32,767] {/home/osboxes/PycharmProjects/aclick/venv/lib/python3.5/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 01:31:32] "GET /urls3 HTTP/1.1" 200 -
+[2017-12-17 23:31:03,381] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+[2017-12-17 23:37:43,757] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 23:37:43] "GET / HTTP/1.1" 302 -
+[2017-12-17 23:38:32,293] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 23:38:32] "GET /create HTTP/1.1" 301 -
+[2017-12-17 23:38:32,299] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 23:38:32] "GET /create/ HTTP/1.1" 200 -
+[2017-12-17 23:40:10,680] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+[2017-12-17 23:40:34,860] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+[2017-12-17 23:42:21,971] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:80/ (Press CTRL+C to quit)
+[2017-12-17 23:53:10,994] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 23:53:10] "GET /urls1 HTTP/1.1" 200 -
+[2017-12-17 23:53:46,751] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 23:53:46] "GET /urls1 HTTP/1.1" 200 -
+[2017-12-17 23:53:51,505] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [17/Dec/2017 23:53:51] "GET /urls2 HTTP/1.1" 200 -
+[2017-12-18 18:28:57,834] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[2017-12-18 18:30:08,511] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[2017-12-18 18:32:40,482] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
+[2017-12-18 18:32:40,484] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Restarting with stat
+[2017-12-18 18:32:40,619] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} WARNING -  * Debugger is active!
+[2017-12-18 18:32:40,622] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Debugger PIN: 283-930-615
+[2017-12-18 18:34:54,864] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Detected change in '/home/ubuntu/test.py', reloading
+[2017-12-18 18:34:59,465] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[2017-12-18 18:34:59,465] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Restarting with stat
+[2017-12-18 18:34:59,601] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} WARNING -  * Debugger is active!
+[2017-12-18 18:34:59,602] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Debugger PIN: 283-930-615
+[2017-12-18 18:36:20,855] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[2017-12-18 18:37:04,786] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 199.68.233.102 - - [18/Dec/2017 18:37:04] "GET / HTTP/1.1" 302 -
+[2017-12-18 18:39:20,772] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2017-12-18 18:39:26,411] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 199.68.233.102 - - [18/Dec/2017 18:39:26] "GET / HTTP/1.1" 302 -
+[2017-12-18 18:39:31,312] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 199.68.233.102 - - [18/Dec/2017 18:39:31] "GET /create HTTP/1.1" 301 -
+[2017-12-18 18:39:31,408] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 199.68.233.102 - - [18/Dec/2017 18:39:31] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 18:39:32,045] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 18:39:32,048] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 199.68.233.102 - - [18/Dec/2017 18:39:32] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 18:40:40,459] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 199.68.233.102 - - [18/Dec/2017 18:40:40] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 18:41:43,928] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 18:41:43,930] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 199.68.233.102 - - [18/Dec/2017 18:41:43] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 18:48:36,403] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 199.68.233.102 - - [18/Dec/2017 18:48:36] "GET /urls1 HTTP/1.1" 200 -
+[2017-12-18 18:48:51,004] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 18:48:51,004] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 199.68.233.102 - - [18/Dec/2017 18:48:51] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 18:48:51,067] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 199.68.233.102 - - [18/Dec/2017 18:48:51] "GET /7ZQ7c HTTP/1.1" 302 -
+[2017-12-18 18:48:53,831] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 18:48:53,831] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 199.68.233.102 - - [18/Dec/2017 18:48:53] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 19:04:40,626] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 46.174.191.31 - - [18/Dec/2017 19:04:40] "GET / HTTP/1.0" 302 -
+[2017-12-18 19:21:43,253] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 19:21:43] "GET /create HTTP/1.1" 301 -
+[2017-12-18 19:21:43,336] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 19:21:43] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 19:21:43,703] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 19:21:43,704] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 19:21:43] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 19:21:43,779] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 19:21:43,779] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 19:21:43] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 19:24:03,406] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 19:24:03] "GET /urls1 HTTP/1.1" 200 -
+[2017-12-18 19:24:28,601] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 19:24:28] "GET /7ZQ7c HTTP/1.1" 302 -
+[2017-12-18 19:58:32,456] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /muieblackcat [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 19:58:32,457] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:32] "GET /muieblackcat HTTP/1.1" 500 -
+[2017-12-18 19:58:32,649] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:32] "GET //phpMyAdmin/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:32,844] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:32] "GET //phpmyadmin/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:33,041] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:33] "GET //pma/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:33,233] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:33] "GET //myadmin/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:33,749] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:33] "GET //MyAdmin/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:34,190] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:34] "GET //admin/mysql/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:34,408] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:34] "GET //admin/phpmyadmin/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:34,634] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:34] "GET //admin/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:34,845] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:34] "GET //sqladmin/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:35,042] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:35] "GET //sqlmanager/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:35,272] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:35] "GET //sql/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:35,466] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:35] "GET //scripts/setup.php HTTP/1.1" 302 -
+[2017-12-18 19:58:35,662] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:35] "GET //dbadmin/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:35,882] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:35] "GET //phpMyAdmi/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:36,079] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:36] "GET //phpMyA/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:36,302] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:36] "GET //php-my-admin/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:36,495] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:36] "GET //php-myadmin/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:36,701] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:36] "GET //pma2005/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:36,893] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:36] "GET //web/phpMyAdmin/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:37,086] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:37] "GET //webadmin/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 19:58:37,278] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 94.229.73.156 - - [18/Dec/2017 19:58:37] "GET //webdb/scripts/setup.php HTTP/1.1" 404 -
+[2017-12-18 20:06:51,619] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:06:51] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:22:19,134] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:22:19] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:22:28,448] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:22:28] "GET /urls1 HTTP/1.1" 200 -
+[2017-12-18 20:33:48,733] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:33:48] "GET /urls1 HTTP/1.1" 200 -
+[2017-12-18 20:33:49,078] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:33:49,079] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:33:49] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:38:19,464] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:38:19] "GET /urls1 HTTP/1.1" 200 -
+[2017-12-18 20:38:40,122] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:38:40,122] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:38:40] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:41:03,299] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+[2017-12-18 20:41:23,764] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:23] "GET /urls2 HTTP/1.1" 200 -
+[2017-12-18 20:41:24,200] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:41:24,202] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:24] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:41:26,410] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:26] "GET /urls3 HTTP/1.1" 200 -
+[2017-12-18 20:41:26,600] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:41:26,601] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:26] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:41:29,979] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:29] "GET /urls2 HTTP/1.1" 200 -
+[2017-12-18 20:41:30,152] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:41:30,153] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:30] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:41:32,533] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:32] "GET /urls1 HTTP/1.1" 200 -
+[2017-12-18 20:41:32,712] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:41:32,713] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:32] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:41:36,894] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:36] "GET /urls3 HTTP/1.1" 200 -
+[2017-12-18 20:41:37,068] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:41:37,069] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:37] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:41:43,047] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:43] "GET /urls2 HTTP/1.1" 200 -
+[2017-12-18 20:41:43,229] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:41:43,230] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:43] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:41:47,197] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:47] "GET /create HTTP/1.1" 301 -
+[2017-12-18 20:41:47,275] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:47] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:41:48,546] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:41:48,548] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:41:48] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:42:40,793] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:42:40] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:42:41,123] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:42:41,124] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:42:41] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:43:57,857] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:43:57] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:43:58,180] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:43:58,181] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:43:58] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:44:02,409] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:44:02] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:44:02,601] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:44:02,602] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:44:02] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:44:41,279] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:44:41] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:44:41,318] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:44:41] "GET /urls3 HTTP/1.1" 200 -
+[2017-12-18 20:44:41,686] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:44:41,687] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:44:41] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:44:41,903] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:44:41,904] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:44:41] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:44:54,728] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:44:54] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:44:55,077] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:44:55,078] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:44:55] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:45:26,961] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:45:26] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:45:39,142] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:45:39,143] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:45:39] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:45:39,280] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:45:39] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:45:39,638] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:45:39,638] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:45:39] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:45:58,397] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:45:58] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:45:58,720] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:45:58,720] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:45:58] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:46:02,690] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:46:02] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:46:02,883] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:46:02,884] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:46:02] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:47:10,385] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:47:10] "GET /urls3 HTTP/1.1" 200 -
+[2017-12-18 20:47:10,386] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:47:10] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:47:10,486] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:47:10] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:47:10,631] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:47:10,631] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:47:10] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:47:10,879] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:47:10,880] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:47:10] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:47:14,842] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:47:14] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:47:15,034] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:47:15,035] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:47:15] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:49:03,940] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:49:03] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:49:04,344] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:49:04,345] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:49:04] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:49:07,862] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:49:07] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:49:08,044] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:49:08,044] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:49:08] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:49:27,884] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:49:27] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:49:28,207] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:49:28,208] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:49:28] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:49:31,462] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:49:31] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:49:31,639] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:49:31,640] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:49:31] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:50:23,104] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:50:23] "GET /urls3 HTTP/1.1" 200 -
+[2017-12-18 20:50:23,421] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:50:23,422] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:50:23] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:50:30,799] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:50:30] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:50:31,128] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:50:31,129] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:50:31] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:50:34,183] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:50:34] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:50:34,363] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:50:34,364] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:50:34] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:50:37,329] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:50:37] "GET /urls3 HTTP/1.1" 200 -
+[2017-12-18 20:50:37,639] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:50:37,640] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:50:37] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:51:08,170] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:51:08] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:51:08,496] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:51:08,497] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:51:08] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:51:22,083] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:51:22] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:51:22,452] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:51:22,453] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:51:22] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:51:40,911] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:51:40] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:51:41,233] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:51:41,234] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:51:41] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:51:43,513] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:51:43] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:51:43,691] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:51:43,692] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:51:43] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:52:09,271] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:52:09] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:52:12,235] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:52:12] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:52:12,237] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:52:12,237] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:52:12] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:52:12,429] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:52:12,430] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:52:12] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:52:32,336] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:52:32] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:52:32,660] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:52:32,661] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:52:32] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:52:35,562] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:52:35] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:52:35,743] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:52:35,744] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:52:35] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:53:01,158] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:53:01] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:53:01,491] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:53:01,492] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:53:01] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:53:04,130] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:53:04] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:53:04,313] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:53:04,314] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:53:04] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:53:20,004] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:53:20] "GET /create/ HTTP/1.1" 200 -
+[2017-12-18 20:53:20,330] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:53:20,331] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:53:20] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:53:22,807] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:53:22] "POST /create/ HTTP/1.1" 200 -
+[2017-12-18 20:53:22,984] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 20:53:22,985] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:53:22] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-18 20:54:05,596] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 20:54:05] "GET /sN1h2 HTTP/1.1" 302 -
+[2017-12-18 21:00:52,264] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 198.186.192.103 - - [18/Dec/2017 21:00:52] "GET / HTTP/1.1" 302 -
+[2017-12-18 21:50:44,906] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 21:50:44] "GET /urls1 HTTP/1.1" 200 -
+[2017-12-18 21:50:56,872] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 21:50:56] "GET /urls2 HTTP/1.1" 200 -
+[2017-12-18 21:51:05,328] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 21:51:05] "GET /urls3 HTTP/1.1" 200 -
+[2017-12-18 21:52:59,046] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 21:52:59] "GET /pWWvX HTTP/1.1" 302 -
+[2017-12-18 21:58:24,590] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 21:58:24] "GET /pCneq HTTP/1.1" 302 -
+[2017-12-18 21:58:40,831] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 21:58:40] "GET /bAQww HTTP/1.1" 302 -
+[2017-12-18 22:05:03,746] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 22:05:03] "GET /urls1 HTTP/1.1" 200 -
+[2017-12-18 22:05:04,095] {/usr/local/lib/python3.4/dist-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.4/dist-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.4/dist-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 149, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2017-12-18 22:05:04,096] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [18/Dec/2017 22:05:04] "GET /favicon.ico HTTP/1.1" 500 -
+[2017-12-19 00:02:42,172] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 104.148.118.51 - - [19/Dec/2017 00:02:42] "GET / HTTP/1.1" 302 -
+[2017-12-19 00:24:08,048] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 52.203.150.80 - - [19/Dec/2017 00:24:08] "GET / HTTP/1.1" 302 -
+[2017-12-19 00:24:19,051] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 52.203.150.80 - - [19/Dec/2017 00:24:19] "GET / HTTP/1.1" 302 -
+[2017-12-19 00:38:04,866] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 185.110.132.232 - - [19/Dec/2017 00:38:04] "GET / HTTP/1.1" 302 -
+[2017-12-19 01:28:00,307] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [19/Dec/2017 01:28:00] "GET /urls3 HTTP/1.1" 200 -
+[2017-12-19 01:34:01,543] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 207.46.13.52 - - [19/Dec/2017 01:34:01] "GET /VdilZ/ZiZTZ/ HTTP/1.1" 404 -
+[2017-12-19 02:09:33,818] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [19/Dec/2017 02:09:33] "GET /urls3 HTTP/1.1" 200 -
+[2017-12-19 02:09:36,823] {/usr/local/lib/python3.4/dist-packages/werkzeug/_internal.py:87} INFO - 69.143.195.19 - - [19/Dec/2017 02:09:36] "GET /urls1 HTTP/1.1" 200 -
+[2018-01-16 14:13:11,808] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[2018-01-16 14:13:24,823] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Jan/2018 14:13:24] "GET / HTTP/1.1" 302 -
+[2018-01-16 14:13:35,854] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Jan/2018 14:13:35] "GET /opportunity HTTP/1.1" 301 -
+[2018-01-16 14:13:35,929] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Jan/2018 14:13:35] "GET /opportunity/ HTTP/1.1" 200 -
+[2018-01-16 14:13:36,494] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rorymclean/Downloads/aclick/main.py", line 211, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2018-01-16 14:13:36,525] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Jan/2018 14:13:36] "GET /favicon.ico HTTP/1.1" 500 -
+[2018-01-16 14:13:36,560] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rorymclean/Downloads/aclick/main.py", line 211, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2018-01-16 14:13:36,563] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Jan/2018 14:13:36] "GET /favicon.ico HTTP/1.1" 500 -
+[2018-01-16 14:14:34,275] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py:1560} ERROR - Exception on /opportunity/ [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rorymclean/Downloads/aclick/main.py", line 189, in opportunity
+    'Contract_Type': [contract_type],
+NameError: name 'contract_type' is not defined
+[2018-01-16 14:14:34,279] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Jan/2018 14:14:34] "POST /opportunity/ HTTP/1.1" 500 -
+[2018-01-16 14:27:35,237] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[2018-01-16 14:27:43,308] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Jan/2018 14:27:43] "GET /opportunity/ HTTP/1.1" 200 -
+[2018-01-16 14:28:42,058] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py:1560} ERROR - Exception on /opportunity/ [POST]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rorymclean/Downloads/aclick/main.py", line 197, in opportunity
+    rows = [dict(rec) for rec in recs]
+  File "/Users/rorymclean/Downloads/aclick/main.py", line 197, in <listcomp>
+    rows = [dict(rec) for rec in recs]
+ValueError: dictionary update sequence element #0 has length 1; 2 is required
+[2018-01-16 14:28:42,062] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Jan/2018 14:28:42] "POST /opportunity/ HTTP/1.1" 500 -
+[2018-01-16 14:29:45,914] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Jan/2018 14:29:45] "GET /opportunity/ HTTP/1.1" 200 -
+[2018-01-16 14:34:10,116] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[2018-01-16 14:34:16,319] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Jan/2018 14:34:16] "GET /opportunity/ HTTP/1.1" 200 -
+[2018-01-16 14:34:42,255] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Jan/2018 14:34:42] "POST /opportunity/ HTTP/1.1" 200 -
+[2018-01-16 14:35:39,906] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[2018-01-16 14:35:43,426] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Jan/2018 14:35:43] "GET /opportunity/ HTTP/1.1" 200 -
+[2018-01-16 14:36:33,443] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [16/Jan/2018 14:36:33] "POST /opportunity/ HTTP/1.1" 200 -
+[2018-01-25 19:47:25,972] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO -  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[2018-01-25 19:47:43,954] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [25/Jan/2018 19:47:43] "GET / HTTP/1.1" 302 -
+[2018-01-25 19:48:13,286] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [25/Jan/2018 19:48:13] "GET /something HTTP/1.1" 302 -
+[2018-01-25 19:48:24,434] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [25/Jan/2018 19:48:24] "GET /something?else HTTP/1.1" 302 -
+[2018-01-25 19:54:16,682] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [25/Jan/2018 19:54:16] "GET /urls1 HTTP/1.1" 200 -
+[2018-01-25 19:54:16,885] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rorymclean/Downloads/aclick/main.py", line 212, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2018-01-25 19:54:16,894] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [25/Jan/2018 19:54:16] "GET /favicon.ico HTTP/1.1" 500 -
+[2018-01-25 19:54:16,908] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py:1560} ERROR - Exception on /favicon.ico [GET]
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise
+    raise value
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/rorymclean/Downloads/aclick/main.py", line 212, in redirect_short_url
+    res = cursor.execute('SELECT URL FROM WEB_URL WHERE ID=?', [decoded])
+OverflowError: Python int too large to convert to SQLite INTEGER
+[2018-01-25 19:54:16,911] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [25/Jan/2018 19:54:16] "GET /favicon.ico HTTP/1.1" 500 -
+[2018-01-25 19:54:36,446] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [25/Jan/2018 19:54:36] "GET /7ZQ7c HTTP/1.1" 302 -
+[2018-01-25 19:54:43,223] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [25/Jan/2018 19:54:43] "GET /7ZQ7c?123 HTTP/1.1" 302 -
+[2018-01-25 19:56:30,492] {/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/werkzeug/_internal.py:87} INFO - 127.0.0.1 - - [25/Jan/2018 19:56:30] "GET /bing?234 HTTP/1.1" 302 -
